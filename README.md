@@ -1,5 +1,5 @@
-# oh-pardesi
-A map-based resume
+# hi-malvika
+An afternoon project to replace a boring pdf cover letter
 
 
 <!DOCTYPE html>
@@ -11,7 +11,7 @@ A map-based resume
     <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.44.1/mapbox-gl.js'></script>
     <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.44.1/mapbox-gl.css' rel='stylesheet' />
     <style>
-        body { margin:0; padding:0; }
+        body { margin:0; padding:25; }
         #map { position:absolute; top:0; bottom:0; width:100%; }
     </style>
 </head>
@@ -49,7 +49,7 @@ section:last-child {
 <div id='features'>
     <section id='welcome' class='active'>
         <h3>Hey, there!</h3>
-        <p>Welcome to a resumap! A resume can only say so much. <br><br>🤖 And they tend to feel robotic, don't they? <br><br>Resumaps are designed to fill the gaps in your resume. If you want to stand out, a resumap is a fun way to help people get to know you. After all, wouldn't you want to know who you're hiring? So if you want see more, sit back, relax, and enjoy the flight 🚀</p>
+        <p>Welcome to the fun version of my resume! <br><br>🤖 I wanted to showcase a bit of myself in a non-stuffy way, and thought a map would be the best way to illustrate myself <br><br>Resumaps are designed to fill the gaps in your resume. If you want to stand out, a resumap is a fun way to help people get to know you. After all, wouldn't you want to know who you're hiring? So if you want see more, sit back, relax, and enjoy the flight 🚀</p>
     </section>
     <section id='section1' class='active'>
         <h3>Section 1</h3>
