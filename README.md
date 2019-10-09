@@ -13,7 +13,7 @@ An afternoon project to replace a boring pdf cover letter
     <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.44.1/mapbox-gl.css' rel='stylesheet' />
     <style>
         body { margin:0; padding:0; }
-        #map { position:absolute; top:0; bottom:0; width:100%; }
+        #map { position:absolute; top:50; bottom:50; width:50%; }
     </style>
 </head>
 <body>
