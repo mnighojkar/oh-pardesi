@@ -2,6 +2,7 @@
 An afternoon project to replace a boring pdf cover letter
 
 
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -11,7 +12,7 @@ An afternoon project to replace a boring pdf cover letter
     <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.44.1/mapbox-gl.js'></script>
     <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.44.1/mapbox-gl.css' rel='stylesheet' />
     <style>
-        body { margin:0; padding:25; }
+        body { margin:0; padding:0; }
         #map { position:absolute; top:0; bottom:0; width:100%; }
     </style>
 </head>
@@ -49,7 +50,7 @@ section:last-child {
 <div id='features'>
     <section id='welcome' class='active'>
         <h3>Hey, there!</h3>
-        <p>Welcome to the fun version of my resume! <br><br>🤖 I wanted to showcase a bit of myself in a non-stuffy way, and thought a map would be the best way to illustrate myself <br><br>Resumaps are designed to fill the gaps in your resume. If you want to stand out, a resumap is a fun way to help people get to know you. After all, wouldn't you want to know who you're hiring? So if you want see more, sit back, relax, and enjoy the flight 🚀</p>
+        <p>Welcome to a resumap! A resume can only say so much. <br><br>🤖 And they tend to feel robotic, don't they? <br><br>Resumaps are designed to fill the gaps in your resume. If you want to stand out, a resumap is a fun way to help people get to know you. After all, wouldn't you want to know who you're hiring? So if you want see more, sit back, relax, and enjoy the flight 🚀</p>
     </section>
     <section id='section1' class='active'>
         <h3>Section 1</h3>
@@ -82,106 +83,71 @@ section:last-child {
     </section>
 </div>
 <script>
-mapboxgl.accessToken = 'pk.eyJ1IjoibW5pZ2hvamthciIsImEiOiJjamd4dnF5N2IwYTA2MndyamV5NzVlanJmIn0.gSYfODHTINJ41FC_lylUxQ';
+mapboxgl.accessToken = 'pk.eyJ1IjoibW5pZ2hvamthciIsImEiOiJjazFqOHI4cjYxM3RyM2NwNmlhMjhiMTZ5In0.i69NTYJWVNNTzqS6_QhTnQ';
 var map = new mapboxgl.Map({
     container: 'map',
     style: 'mapbox://styles/mapbox/outdoors-v10',
         bearing: -0,
-        center: [21.277551, 22.152159],
-        zoom: 1.03,
+        center: [12.939830, 77.623094],
+        zoom: 2,
         speed: 0.8,
         pitch: 0
 });
 var chapters = {
-    'welcome': {
+    'Phase 1: Poona-na-oh-na-na': {
         bearing: -0,
-        center: [-108.866174, 49.272291],
+        center: [18.509884, 73.884838],
         zoom: 2,
         speed: 0.8,
         pitch: 0
     },
     'section1': {
-        bearing: 158.40,
-        center: [73.851930, 18.493188],
-        zoom: 11.39,
+        bearing: 0,
+        center: [50.715502, -1.877072],
+        zoom: 6.00,
         pitch: 0
     },
     'section2': {
-        center: [-98.881412, 46.071696],
-        bearing: 158.40,
-        zoom: 3.78,
+        center: [40.428262, 116.568546],
+        bearing: 54.40,
+        zoom: 12.59,
         speed: 0.6,
         pitch: 44.50
     },
     'section3': {
-        bearing: 70.40,
-        center: [78.292840, 30.076842],
-        zoom: 13.87,
+        bearing: 12.80,
+        center: [-6.207394, 106.846156],
+        zoom: 13.18,
         speed: 0.6,
-        pitch: 23.00
+        pitch: 0.00
     },
     'section4': {
         bearing: 60,
-        center: [-134.408720, 58.300388],
+        center: [5.413485, 100.337498],
         zoom: 16.57,
         speed: 0.6,
         pitch: 45
     },
     'section5': {
-        bearing: 0.00,
-        center: [-4.622577, 54.916666],
-        zoom: 4.94,
-        pitch: 0.00,
+        bearing: 15.20,
+        center: [52.006307, -5.078935],
+        zoom: 10.56,
+        pitch: 40.50,
         speed: 0.6
     },
     'section6': {
-        bearing: 0.00,
-        center: [83.013094, 25.305890],
+        bearing: 0,
+        center: [27.987654, 86.921435 ],
         zoom: 5.53,
         pitch: 0,
         speed: 0.6
     },
     'section7': {
         bearing: -0,
-        center: [-1.844674, 50.724026],
-        zoom: 12.22,
-        speed: 2.5,
-        pitch: 0
-    },
-    'section8': {
-        bearing: -0,
-        center: [116.401929, 39.907636],
-        zoom: 13.78,
-        speed: 2.5,
-        pitch: 0
-    },
-    'section9': {
-        bearing: -0,
-        center: [100.289955, 5.329807],
-        zoom: 8.85,
-        speed: 2.5,
-        pitch: 0
-    },
-    'section10': {
-        bearing: -0,
-        center: [-2.282713, 50.622936],
-        zoom: 13.65,
-        speed: 1.0,
-        pitch: 0
-    },
-    'section11': {
-        bearing: -0,
-        center: [78.478833, 21.784582],
-        zoom: 3.97,
+        center: [27.230526, 0.000000],
+        zoom: 1.18,
         speed: 0.8,
-        pitch: 2.50
-    },
-    'section12': {
-        bearing: -0,
-        center: [24.829579, 20.203693],
-        zoom: 0.89,
-        speed: 0.8,
-        pitch: 2.50
+        pitch: 0
     },
 };
 // On every scroll event, check which element is on screen
@@ -210,5 +176,12 @@ function isElementOnScreen(id) {
 }
 </script>
 </body>
+</html># Your snippets
+<!DOCTYPE html>
+<html>
+<body>
+<h1>Hello World</h1>
+<p>I'm hosted with GitHub Pages.</p>
+</body>
 </html>
-view rawresumap.html hosted with ❤ by GitHub
+
